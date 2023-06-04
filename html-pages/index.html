@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index-blog</title>
+    <link rel="stylesheet" href="/dis/style.css">
+    <script defer type="application/javascript" src="../dates.js"></script>
+<style>
+    #check:checked~ul{
+        left:0;
+
+    }
+</style>
+
+</head>
+<body>
+    <header class="h-10 w-full xl:bg-blue-500 bg-gradient-to-tr from-blue-500 to-white sticky top-0 left-0 right-0">
+            <p class="xl:text-xl uppercase xl:ml-4 space-x-1 sm:leading-[80px] sm:text-4xl xl:float-left ">WebBlog</p>
+            <input type="checkbox" id="check" hidden/>
+            <label class="sm:float-right sm:-mt-10 sm:mr-4 text-black text-4xl xl:hidden " for="check">&#9776;</label>
+            <ul class="relative  xl:top-4  sm:top-20 sm:z-auto xl:left-0  lg:text-xl sm:text-xl sm:h-0 sm:text-center sm:leading-[80px] sm:text-black sm:duration-300 sm:flex-col sm:-left-full xl:bg-transparent  font-semibold uppercase xl:mr-6 items-center flex xl:flex-row xl:float-right gap-5">
+                <li class="hover:text-gray-200  " ><a href="#">Home</a></li>
+                <li class="hover:text-gray-200  "><a href="#gal">Gallery</a></li>
+                <li class="hover:text-gray-200  "><a href="#">About</a></li>
+                <li class="hover:text-gray-200  "><a href="#">Contact</a></li>
+                <li class="hover:text-gray-400  "><a href="#">service</a></li>
+    
+            </ul>
+    </header>
+    <div class="px-5">
+   <div class="grid xl:grid-cols-5 relative sm:grid-cols-1 ">
+    <div class="sm:w-3xl xl:mt-40  sm:mt-0 xl:col-span-3 sm:col-span-1 bg-blue-900 bg-gradient-to-r">
+        <div class="sm:flex sm:gap-5">
+            <img class="w-10 h-10 sm:w-30 sm:h-30  xl:object-center xl:object-cover rounded-full inline-block shadow-md" src="../image/the-rock.jpeg" alt=" the rock">
+            <p class="font-serif text-[10px] sm:text-red-200 sm:text-base inline-block text-gray-200">The Rocke</p>
+        </div>
+        <p class=" text-gray-200 text-3xl font-medium xl:mt-5 ">The history and future of <br class="hidden xl:inline"> our non-code company</p>
+        <div class="mt-5 space-x-4">
+            <a class="inline-block px-3 font-semibold tracking-wider py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Featured</a>
+            <a class="inline-block px-3 py-1 xl:text-xsm font-semibold text-gray-200 xl:rounded-3xl bg-blue-600" href="">Company</a>
+            <p class="text-xsm tracking-wider text-gray-200 inline-block px-1 py-1" id="date"></p>
+
+        </div>
+    </div>
+    <div class="xl:col-span-2 sm:col-span-1 sm:mt-0 xl:mt-40 space-y-2 bg-gray-900 bg-gradient-to-bl from-gray-900 to-blue-400 ">
+        <img class="xl:w-200 xl:h-50 xl:object-cover sm:w-full sm:h-full sm:object-center sm:object-cover xl:mx-auto xl:object-center" src="../image/the-rock.jpeg" alt="">
+
+    </div>
+   </div>
+   <div id="gal">
+    <p class="inline-block py-5 text-3xl">Latest Articles</p>
+    <div class="grid xl:grid-cols-4 gap-4 sm:gap-8 sm:grid-cols-1">
+        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>
+        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>        <section class="bg-transparent shadow-lg px-5 py-5 xl:w-80">
+            <img class="block w-full xl:object-cover object-center" src="../image/the-leg.jpeg" alt="">
+            <div class="mt-5">
+                <a class="inline-block px-3 font-semibold tracking-widest py-1 xl:text-xsm text-gray-200 xl:rounded-3xl bg-red-900" target="_blank" href="#">Technology</a>
+                <p class="text-xsm tracking-wider text-black inline-block px-1 py-1" id="dates"></p>
+            </div>
+            <p class="pt-4">this is how technology will look like in 10 years ahead </p>
+    
+    
+        </section>
+    </div>
+   </div>
+</div>
+    
+</body>
+</html>
